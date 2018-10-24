@@ -1,3 +1,4 @@
 node_modules
 test_client.js
 docs
+.DS_Store

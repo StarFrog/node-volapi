@@ -19,4 +19,4 @@ API
 
 You got a `Room` and it emits `Message`s and `File`s and other stuff!
 
-See sample_client.js
+See [`sample_client.js`](sample_client.js) and [`api.md`](api.md) for full API documentation

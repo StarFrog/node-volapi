@@ -2,6 +2,7 @@ const {Room} = require("volapi");
 
 async function main() {
   console.log("starting up");
+  // new Room(id or alias or full url, [nick], [options])
   const room = new Room("BEEPi", "MrRobot");
   room.on("open", () => {
     console.log("opened room", room.toString());
@@ -21,6 +22,7 @@ async function main() {
   });
 
   console.log("logging in");
+  //this is your account password
   await room.login("hunter2");
   console.log("connecting");
   await room.connect();
